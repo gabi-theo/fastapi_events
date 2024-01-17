@@ -48,29 +48,29 @@ This script will clone the repo, and automatially create .env files.
 
 To run the application locally, go to cloned folder:
 
-```http
+```
   cd DEST_FOLDER
 ```
 And run:
 
-```http
+```
 sh script/run_docker.sh
 ```
 
 ! If you have permission problems running the scripts, what can help is running:
-```http
+```
 chmod +x script/run_docker.sh
 ```
 
 The application should be up and running locally, on a docker instance.
 Documentation can be read at: 
-```http
+```
 http://127.0.0.1:8000/docs
 ```
 
 ### Other method
 1. Manually clone the public repo from: 
-```http
+```
 https://github.com/gabi-theo/fastapi_events.git
 ```
 2. Navigate to your cloned folder and create .env file with the following variables:
@@ -83,7 +83,7 @@ POSTGRES_DB=<database_name>
 ```
 3.Run:
 
-```http
+```
 sh script/run_docker.sh
 ```
 
